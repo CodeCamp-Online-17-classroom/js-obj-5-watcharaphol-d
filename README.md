@@ -1,4 +1,20 @@
-# js-lab-50
-### Lab50 Object: Property shorthand
-- ให้เขียนโค้ดเพื่อรับค่าจากผู้ใช้งาน 3 ค่า และเก็บไว้ในตัวแปร username, email และ password
-- ให้สร้าง object user ที่มี property 3 อันคือ username, email และ password โดยให้แต่ละ property มีค่าตามตัวแปรที่รับมา
+# js-lab-51
+### Lab51 Object: Nested Object
+- ให้เขียนโค้ดเพื่อ log province  ของ product1
+- หากมี product2 เป็น object  ว่าง ให้ log province ของ  product2 โดยใช้คำสั่งเดียวกับ product1 (หาก Error ให้หาวิธีแก้)
+
+```JavaScript
+const product1 = {
+  name: 'Water',
+  distributor: {
+    name: 'Giraffe Water Company',
+    address: {
+      street: 'Phetchaburi',
+      subdistrict: 'Thanonphetchaburi',
+      district: 'Ratchathewi',
+      province: 'Bangkok'
+    }
+  }
+};
+const product2 = {}
+```
